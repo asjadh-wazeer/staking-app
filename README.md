@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# Staking app
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+The smart contract has been deployed on the Goerli test network, and you can find the deployed contract at the following link: https://etherscan.io/address/0xc25bEcE9135B16cCD1c516dc3a12c7F968868188
 
-Try running some of the following tasks:
+The full React app, which connects to the smart contract using Hardhat and ethers.js, has been deployed and can be accessed at the following link: https://staking-app-eth.netlify.app/
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The complete staking app, including both the smart contract code and the React frontend code, is available on GitHub at the following link: https://github.com/asjadh-wazeer/staking-app
+
+For the smart contract's code, you can find it on GitHub at the following link: https://github.com/asjadh-wazeer/smart-contract-staking-app/tree/main
